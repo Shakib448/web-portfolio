@@ -4,3 +4,6 @@ body{
 h1{
     font-size: 50px;
 }
+.name-highlight{
+    color: orange;
+}
