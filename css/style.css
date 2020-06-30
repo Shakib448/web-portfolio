@@ -39,6 +39,7 @@ h1{
     background-image: url("../images/top-banner.png");
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 150px;
 }
 section{
     height: 500px;
