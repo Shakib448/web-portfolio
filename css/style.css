@@ -43,3 +43,7 @@ h1{
 section{
     height: 500px;
 }
+.dream-bg {
+    position: absolute;
+    right: 0;
+}
