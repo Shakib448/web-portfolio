@@ -36,7 +36,7 @@ h1{
 }
 
 #top-banner{
-    background-image: url("../images/top-banner.png");
+    background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 150px;
@@ -48,7 +48,7 @@ section{
     margin-bottom: 150px;
 }
 #dream-area{
-    background-image: url("../images/dream-bg.png");
+    background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -64,7 +64,7 @@ section{
 }
 
 #exp-area{
-    background-image: url("../images/exp-bg.png");
+    background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
     margin-bottom: 100px ;
