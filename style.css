@@ -1,0 +1,81 @@
+body{
+    font-family: 'Galada', cursive;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+}
+.name-highlight{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    border: lightsalmon;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+    transition: 1s;
+}
+.link-button:hover{
+    background-image: linear-gradient(45deg, rgb(228, 130, 130), rgb(141, 155, 155));
+    color: black;
+    transition: 1s;
+}
+
+#top-banner{
+    background-image: url("../images/top-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 150px;
+}
+section{
+    height: 500px;
+}
+.middle{
+    margin-bottom: 150px;
+}
+#dream-area{
+    background-image: url("../images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.card-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+.card-width p{
+    padding-right: 1%;
+}
+
+#exp-area{
+    background-image: url("../images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 100px ;
+}
+.full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+.baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
