@@ -44,7 +44,38 @@ h1{
 section{
     height: 500px;
 }
-.dream-bg {
-    position: absolute;
-    right: 0;
+.middle{
+    margin-bottom: 150px;
+}
+#dream-area{
+    background-image: url("../images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.card-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+.card-width p{
+    padding-right: 1%;
+}
+
+#exp-area{
+    background-image: url("../images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 100px ;
+}
+.full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+.baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
 }
